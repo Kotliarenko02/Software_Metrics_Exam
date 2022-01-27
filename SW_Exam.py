@@ -8,6 +8,7 @@ NEG = "Negative gamma"
 INV = "Not valid input"
 
 def results(x):
+    """Gamma from numbers"""
     print("Input: ",x)
     result = ""
     if (isinstance(x) == int or isinstance(x) == float):
