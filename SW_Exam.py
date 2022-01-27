@@ -11,7 +11,7 @@ def results(x):
     str_num = ""
     print("Input: ",x)
     result = ""
-    if (type(x) == int or type(x) == float):
+    if (isinstance(x) == int or isinstance(x) == float):
         num = math.gamma(float(x))
         str_num = str(num)
         if num> 0:
@@ -42,4 +42,3 @@ class TestDevisionResults(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
