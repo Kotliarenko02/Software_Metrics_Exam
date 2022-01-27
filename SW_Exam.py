@@ -11,7 +11,7 @@ def results(x):
     """Gamma from numbers"""
     print("Input: ",x)
     result = ""
-    if (isinstance(x) == int or isinstance(x) == float):
+    if (type(x) == int or type(x) == float):
         num = math.gamma(float(x))
         if num> 0:
             result = POS
